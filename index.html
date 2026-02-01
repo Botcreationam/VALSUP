@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>For You ❤️</title>
 
-  <!-- Romantic font -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
 
   <style>
@@ -31,8 +30,8 @@
     }
 
     .photo {
-      width: 170px;
-      height: 170px;
+      width: 200px;
+      height: 200px;
       object-fit: cover;
       border-radius: 50%;
       margin-bottom: 25px;
@@ -40,14 +39,8 @@
       animation: fadeIn 3s ease;
     }
 
-    h1 {
-      font-size: 2.6em;
-      margin-bottom: 15px;
-    }
-
-    h2 {
-      margin-top: 25px;
-    }
+    h1 { font-size: 2.6em; margin-bottom: 15px; }
+    h2 { margin-top: 25px; }
 
     p {
       font-size: 1.35em;
@@ -55,9 +48,7 @@
       margin: 15px 0;
     }
 
-    .buttons {
-      margin-top: 35px;
-    }
+    .buttons { margin-top: 35px; }
 
     button {
       padding: 15px 32px;
@@ -69,19 +60,10 @@
       transition: transform 0.2s ease;
     }
 
-    .yes {
-      background: #ff4d6d;
-      color: white;
-    }
+    .yes { background: #ff4d6d; color: white; }
+    .no { background: #ccc; color: #333; }
 
-    .no {
-      background: #ccc;
-      color: #333;
-    }
-
-    button:hover {
-      transform: scale(1.07);
-    }
+    button:hover { transform: scale(1.07); }
 
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(25px); }
@@ -99,8 +81,10 @@
 
   <div class="letter">
 
-    <!-- HER PHOTO -->
-    <img src="9c986e4f-fddb-4ef8-a15b-e1374d556afc.jpeg" alt="Her Photo" class="photo">
+    <!-- LOVE VIDEO -->
+    <video class="photo" autoplay muted loop playsinline>
+      <source src="love.mp4" type="video/mp4">
+    </video>
 
     <h1>My Dearest ❤️</h1>
 
@@ -112,16 +96,13 @@
     </p>
 
     <p>
-      <strong>🥺febian🥺</strong>,  
+      <strong>❤️febian❤️</strong>,  
       this page is more than just words.  
-      It’s me choosing you  
+      It’s me choosing you —  
       intentionally, honestly, and with a full heart.
     </p>
 
-    <p>
-      I don’t need perfection.  
-      I just need *you*.
-    </p>
+    <p>I don’t need perfection. I just need you.</p>
 
     <h2>Will you be my Valentine? 💖</h2>
 
@@ -159,7 +140,7 @@
     }
 
     function noClicked() {
-      alert("Haha 😅 you can’t say no that easily… try again hunny💖");
+      alert("Haha 😅 you can’t say no that easily… try again mr febian💖");
     }
   </script>
 
